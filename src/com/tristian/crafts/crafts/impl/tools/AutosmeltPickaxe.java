@@ -1,4 +1,4 @@
-package com.tristian.crafts.crafts.impl;
+package com.tristian.crafts.crafts.impl.tools;
 
 import com.tristian.crafts.crafts.CustomCraft;
 import org.bukkit.ChatColor;

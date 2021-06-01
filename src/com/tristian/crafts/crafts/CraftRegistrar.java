@@ -10,14 +10,14 @@ public class CraftRegistrar {
 
     public static List<CustomCraft> crafts;
 
-
-
-    public void registerCraft(CustomCraft craft) {
+    public static void register(CustomCraft craft) {
         crafts.add(craft);
     }
 
 
-    public void sendCraftsToSpigotApi() {
+
+
+    public static void sendCraftsToSpigotApi() {
         crafts.stream().map(CustomCraft::getRecipe).forEach(Bukkit.getServer()::addRecipe);
     }
 
